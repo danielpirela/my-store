@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "lint": "eslint"
+    "lint": "eslint . --fix",
+    "prettier": "prettier . --write"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,6 @@
     "joi": "^17.4.2"
   },
   "engines": {
-    "node": "14.x"
+    "node": "14.17.6"
   }
 }
